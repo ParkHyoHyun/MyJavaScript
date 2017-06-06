@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+    Number(true) + "<br>" +
+    Number(false) + "<br>" +
+    Number(new Date()) + "<br>" +
+    Number("  10") + "<br>" +
+    Number("10  ") + "<br>" +
+    Number("10 6")
+
+    parseInt("10") + "<br>" +
+    parseInt("10.33") + "<br>" +
+    parseInt("10 6") + "<br>" +    
+    parseInt("10 years") + "<br>" +    
+    parseInt("years 10");    
+
+    parseFloat("10") + "<br>" +
+    parseFloat("10.33") + "<br>" +
+    parseFloat("10 6") + "<br>" +    
+    parseFloat("10 years") + "<br>" +
+    parseFloat("years 10");   
+</script>
+
+</body>
+</html>
+
+
